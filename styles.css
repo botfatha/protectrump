@@ -49,8 +49,8 @@ body, html {
 }
 
 .game-container {
-    width: 125%;  /* Increase size by 25% */
-    height: 125%; /* Increase size by 25% */
+    width: 100%;  /* Increase size by 25% */
+    height: 100%; /* Increase size by 25% */
     display: flex;
     align-items: center;
     justify-content: center;
