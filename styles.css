@@ -1,4 +1,9 @@
 /* styles.css */
+@font-face {
+    font-family: 'SuperPixel';
+    src: url('SuperPixel.ttf') format('truetype');
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -16,6 +21,18 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'SuperPixel', Arial, sans-serif;
+    font-size: 3em;
+    background: linear-gradient(to right, red, darkred);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .game-container {
