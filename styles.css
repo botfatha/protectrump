@@ -57,7 +57,6 @@ body, html {
     overflow: hidden;
     position: relative;
 	z-index: 1; /* Ensure game container is on top */
-    box-shadow: 10px 10px 10px darkred; /* Add dark red shadow */
 }
 
 .game-container iframe {
