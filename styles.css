@@ -64,5 +64,6 @@ body, html {
     height: 100%;
     border: none;
     pointer-events: auto; /* Ensure the iframe is interactive */
+	z-index: 1; /* Ensure game container is on top */
     position: absolute;
 }
