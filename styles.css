@@ -33,7 +33,7 @@ body, html {
     font-size: 4em;
     color: black;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 95px;
     position: relative;
     z-index: -1; /* Ensure title is on top */
     animation: pulseShadow 3s infinite;
