@@ -33,7 +33,7 @@ body, html {
     font-size: 3em;
     color: black;
     text-align: center;
-    margin-top: 78px;
+    margin-top: 75px;
     position: relative;
     z-index: -1; /* Ensure title is on top */
     animation: pulseShadow 3s infinite;
@@ -51,7 +51,6 @@ body, html {
 .game-container {
     width: 100%;
     height: calc(100% - 100px); /* Adjust height considering title margin */
-	margin-bottom:45px;
     display: flex;
     align-items: center;
     justify-content: center;
