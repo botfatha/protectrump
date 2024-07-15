@@ -8,15 +8,17 @@ body, html {
 
 .game-container {
     width: 100%;
-    height: 100%;
+    height: calc(100% - 100px); /* Adjust height considering title margin */
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1; /* Ensure game container is on top */
+    position: relative;
 }
 
 .game-container iframe {
-    width: 100%;
+	width: 100%;
     height: 100%;
-    border: none;
     pointer-events: auto; /* Ensure the iframe is interactive */
+    position: relative;
 }
