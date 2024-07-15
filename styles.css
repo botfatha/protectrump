@@ -1,9 +1,51 @@
+/* styles.css */
+@font-face {
+    font-family: 'SuperPixel';
+    src: url('SuperPixel.ttf') format('truetype');
+}
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url('/images/background8.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -1; /* Send background to the back */
+}
+
+.title {
+    font-family: 'SuperPixel', Arial, sans-serif;
+    font-size: 4em;
+    color: black;
+    text-align: center;
+    margin-top: 75px;
+    position: relative;
+    z-index: 1; /* Ensure title is on top */
+    animation: pulseShadow 3s infinite;
+}
+
+@keyframes pulseShadow {
+    0%, 100% {
+        text-shadow: 0 0 10px red;
+    }
+    50% {
+        text-shadow: 0 0 20px darkred;
+    }
 }
 
 .game-container {
