@@ -30,10 +30,10 @@ body, html {
 
 .title {
     font-family: 'SuperPixel', Arial, sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     color: black;
     text-align: center;
-    margin-top: 95px;
+    margin-top: 85px;
     position: relative;
     z-index: -1; /* Ensure title is on top */
     animation: pulseShadow 3s infinite;
