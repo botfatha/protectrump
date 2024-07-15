@@ -28,17 +28,6 @@ body, html {
     z-index: -1; /* Send background to the back */
 }
 
-.title {
-    font-family: 'SuperPixel', Arial, sans-serif;
-    font-size: 4em;
-    color: black;
-    text-align: center;
-    margin-top: 75px;
-    position: relative;
-    z-index: 0; /* Ensure title is on top */
-    animation: pulseShadow 3s infinite;
-}
-
 @keyframes pulseShadow {
     0%, 100% {
         text-shadow: 0 0 10px red;
