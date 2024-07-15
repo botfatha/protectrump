@@ -36,8 +36,17 @@ body, html {
     margin-top: 75px;
     position: relative;
     z-index: -1; /* Ensure title is on top */
+    animation: pulseShadow 3s infinite;
 }
 
+@keyframes pulseShadow {
+    0%, 100% {
+        text-shadow: 0 0 10px red;
+    }
+    50% {
+        text-shadow: 0 0 20px darkred;
+    }
+}
 
 .game-container {
     width: 100%;
