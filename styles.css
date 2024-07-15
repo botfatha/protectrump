@@ -49,14 +49,13 @@ body, html {
 }
 
 .game-container {
-    width: 100%;  /* Increase size by 25% */
-    height: 100%; /* Increase size by 25% */
+    width: 100%;
+    height: calc(100% - 100px); /* Adjust height considering title margin */
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    z-index: 1; /* Ensure game container is on top */
     position: relative;
-	z-index: 1; /* Ensure game container is on top */
 }
 
 .game-container iframe {
